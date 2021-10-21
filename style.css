@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    letter-spacing: 4px;
+    width: 100vw !important;
+}
+
+.nav-item:hover {
+    background-color: #aaa;
+}
+
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.position-topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(./images/architect.jpg);
+    height: 90vh !important;
+}
