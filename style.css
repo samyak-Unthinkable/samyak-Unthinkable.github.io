@@ -18,11 +18,26 @@ a.nav-link {
     background-color: #f44336;
     color: #fff;
 }
+img{
+    opacity: 0.75;
 
+}
+.opacity-75{
+    opacity: 0.75;
+
+}
+.bg-black{
+    background-color: black!important;
+}
 header {
-    height: 50vh;
+    /* height: 50vh; */
     overflow: hidden;
+    min-height: 400px;
+    opacity: 0.75;
+    /* background-position: center;
+    background-size: cover; */
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -43,10 +58,10 @@ header#header3 {
     background-image: url(images/parallax3.jpg);
 }
 
-.img-thumb {
+/* .img-thumb {
     height: 25%;
     width: 25%;
-}
+} */
 
 .img-thumb:hover {
     opacity: 0.5;
@@ -55,4 +70,10 @@ header#header3 {
 #map {
     width: 33.33%;
     height: fit-content;
+}
+.bg-white{
+    background-color: white!important;
+}
+.bg-tranparent{
+    background-color: transparent!important;
 }
