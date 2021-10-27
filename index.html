@@ -7,173 +7,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>BR Architect</title>
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hello, world!</title>
 </head>
 
-<body style="max-width: 100vw;">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow m-0 p-1 px-3 fixed-top">
-        <a class="navbar-brand" href="#"><b>B R</b> Architects</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"> </span>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top p-0 shadow ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav w-100 d-flex justify-content-center justify-content-md-end">
-                <li class="nav-item active m-1 px-2 p-0">
-                    <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item m-1 px-2 p-0">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item m-1 px-2 p-0">
-                    <a class="nav-link" href="#">Contacts</a>
-                </li>
-            </ul>
+        <div class="collapse navbar-collapse d-flex" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#"><i class="fa fa-user"></i> ABOUT</a>
+                <a class="nav-link" href="#"><i class="fa fa-th"></i> PORTFOLIO</a>
+                <a class="nav-link" href="#"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+            <a id="search" class="nav-link ml-auto" href="#"><i class="fa fa-search"></i></a>
         </div>
     </nav>
 
-    <header class="d-flex justify-content-center w-100 bg">
-        <!-- <img src="./images/architect.jpg" alt="Architect"> -->
-        <div class="position-center">
-            <h1 class="text-light">
-                <span class="bg-dark p-2 font-weight-bold">BR</span> Architects
-            </h1>
-        </div>
+    <header id="header1" class="d-flex justify-content-center align-items-center">
+        <h1 class="bg-dark text-light p-2">LOGO GOES HERE</h1>
     </header>
 
-    <section class=" p-4" style="max-width:100vw;overflow-x: hidden;">
-        <h4 class="p-4 border-bottom">Projects</h4>
-        <div class=" row images mx-auto w-100">
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house3.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Summer House</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house2.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Brick House</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house4.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Renovated</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house5.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Barn House</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house2.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Summer House</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house3.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Brick House</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house2.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Renovated</p>
-            </div>
-            <div class="col-12 col-md-3 position-relative p-4">
-                <img src="./images/house4.jpg" class="w-100 h-100">
-                <p class="position-topleft m-4 text-light bg-dark p-2">Barn House</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid w-100 p-4" style="max-width: 100vw;">
-        <h4 class="p-4 border-bottom">About</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+    <section class="text-secondary w-60 mx-auto py-4">
+        <h3 class="text-center">ABOUT ME</h3>
+        <p class="text-center font-italic">I love photography</p>
+        <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.</p>
-        <div class="row">
-            <div class="col-12 col-md-3 card border-0 rounded-0">
-                <img class="card-img-top" src="./images/team2.jpg" alt="Team Member">
-                <div class="card-body p-0">
-                    <h3 class="card-title">John Doe</h3>
-                    <p class="card-subtitle text-muted">CEO & Founder</p>
-                    <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
-                        pellentesque
-                        elementum.</p>
-                    <a href="#" class="btn btn-secondary w-100">Contact</a>
-                </div>
+        <div class="d-flex flex-row my-5">
+            <div class="d-flex flex-column mx-2 w-50">
+                <a class="text-center text-secondary mb-4"><i class="fa fa-user"></i> My Name</a>
+                <img src="images/avatar_hat.jpg" alt="me">
             </div>
-            <div class="col-12 col-md-3 card border-0 rounded-0">
-                <img class="card-img-top" src="./images/team1.jpg" alt="Team Member">
-                <div class="card-body p-0">
-                    <h3 class="card-title">Joe Doe</h3>
-                    <p class="card-subtitle text-muted">Architect</p>
-                    <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
-                        pellentesque
-                        elementum.</p>
-                    <a href="#" class="btn btn-secondary w-100">Contact</a>
-                </div>
+            <p class="w-50 mx-2">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="d-flex flex-column my-5">
+            <p class="text-center">I am really good at:</p>
+            <p><i class="fa fa-camera"></i> Photography</p>
+            <div class="progress rounded-0 mb-2" style="height: 32px">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">90%</div>
             </div>
-            <div class="col-12 col-md-3 card border-0 rounded-0">
-                <img class="card-img-top" src="./images/team3.jpg" alt="Team Member">
-                <div class="card-body p-0">
-                    <h3 class="card-title">Mike Ross</h3>
-                    <p class="card-subtitle text-muted">Architect</p>
-                    <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
-                        pellentesque
-                        elementum.</p>
-                    <a href="#" class="btn btn-secondary w-100">Contact</a>
-                </div>
+            <p><i class="fa fa-laptop"></i> Web Design</p>
+            <div class="progress rounded-0 mb-2" style="height: 32px">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                    aria-valuemin="0" aria-valuemax="100">85%</div>
             </div>
-            <div class="col-12 col-md-3 card border-0 rounded-0">
-                <img class="card-img-top" src="./images/team4.jpg" alt="Team Member">
-                <div class="card-body p-0">
-                    <h3 class="card-title">Dan Star</h3>
-                    <p class="card-subtitle text-muted">Architect</p>
-                    <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
-                        pellentesque
-                        elementum.</p>
-                    <a href="#" class="btn btn-secondary w-100">Contact</a>
-                </div>
+            <p><i class="fa fa-image"></i> Photoshop</p>
+            <div class="progress rounded-0 mb-2" style="height: 32px">
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">75%</div>
             </div>
         </div>
     </section>
-
-    <section class=" m-4">
-        <h4 class="p-4 border-bottom">Contact</h4>
-        <form>
-            <label class="m-4">Lets get in touch and talk about your next project.</label>
-            <input type="text" class="form-control m-4" placeholder="Name">
-            <input type="email" class="form-control m-4" aria-describedby="emailHelp" placeholder="Email">
-            <input type="text" class="form-control m-4" placeholder="Subject">
-            <input type="text" class="form-control m-4" placeholder="Comment">
-            <button type="submit" class="btn btn-dark m-4">Send Message</button>
-        </form>
-    </section>
-
-    <div class="mx-4">
-        <img src="./images/map.jpg" alt="Architect" class="w-100">
+    <div class="d-flex flex-row justify-content-around align-items-center bg-secondary text-light py-4">
+        <div class="d-flex flex-column justify-content-center">
+            <h3>14+</h3>
+            <p>Partners</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+            <h3>55+</h3>
+            <p>Projects Done</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+            <h3>89+</h3>
+            <p>Happy Clients</p>
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+            <h3>150+</h3>
+            <p>Meetings</p>
+        </div>
     </div>
 
-    <footer class="bg-dark d-flex justify-content-center">
-        <div class="my-8">
-            <p class="text-light">Powered by Bootstrap</p>
+    <header id="header2" class="d-flex justify-content-center align-items-center">
+        <h1 class="text-light p-2">PORTFOLIO</h1>
+    </header>
+    <section class="text-secondary w-60 mx-auto py-4">
+        <h3 class="text-center">MY WORK</h3>
+        <p class="text-center font-italic">Here are some of my latest lorem work ipsum tipsum.<br>
+            Click on the images to make them bigger</p>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="images/p1.jpg" alt="" class="img-thumb m-2">
+                <img src="images/p2.jpg" alt="" class="img-thumb m-2">
+                <img src="images/p3.jpg" alt="" class="img-thumb m-2">
+                <img src="images/p4.jpg" alt="" class="img-thumb m-2">
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <img src="images/p5.jpg" alt="" class="img-thumb m-2">
+                <img src="images/p6.jpg" alt="" class="img-thumb m-2">
+                <img src="images/p7.jpg" alt="" class="img-thumb m-2">
+                <img src="images/p8.jpg" alt="" class="img-thumb m-2">
+            </div>
         </div>
+        <div class="d-flex justify-content-center my-5">
+            <button class="btn btn-light bg-light rounded-0">LOAD MORE</button>
+        </div>
+    </section>
+
+    <header id="header3" class="d-flex justify-content-center align-items-center">
+        <h1 class="text-light p-2">CONTACT</h1>
+    </header>
+    <section class="text-secondary w-60 mx-auto py-4">
+        <h3 class="text-center">WHERE I WORK</h3>
+        <p class="text-center font-italic">I'd love your feedback!</p>
+        <div class="d-flex flex-row">
+            <img src="images/map.jpg" alt="" class="rounded" id="map">
+            <div class="flex-grow-1 d-flex flex-column p-4">
+                <p><i class="fa fa-map-marker"></i> Chicago, US</p>
+                <p><i class="fa fa-phone"></i> Phone: +00 151515</p>
+                <p><i class="fa fa-envelope"></i> Email: mail@mail.com</p>
+                <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                <form action="">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" name="name" id="name" placeholder="NAME" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" name="mail" id="mail" placeholder="EMAIL" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="message" id="message" placeholder="MESSAGE" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-dark float-right"><i class="fa fa-paper-plane"></i> SEND
+                        MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light d-flex flex-column justify-content-center align-items-center h-25 p-5">
+        <a href="#header1" class="btn btn-light"><i class="fa fa-arrow-up"></i> To the top</a>
+        <div class="p-3">
+            <i class="fa fa-facebook-official w3-hover-opacity m-1"></i>
+            <i class="fa fa-instagram w3-hover-opacity m-1"></i>
+            <i class="fa fa-snapchat w3-hover-opacity m-1"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity m-1"></i>
+            <i class="fa fa-twitter w3-hover-opacity m-1"></i>
+            <i class="fa fa-linkedin w3-hover-opacity m-1"></i>
+        </div>
+        <p>Powered by Bootstrap.</p>
     </footer>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script
+  </body>
 </html>

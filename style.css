@@ -1,31 +1,58 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    font-family: "Lato", Verdana, sans-serif;
 }
 
-.navbar {
-    letter-spacing: 4px;
-    width: 100vw !important;
+.w-60 {
+    width: 60%;
 }
 
-.nav-item:hover {
-    background-color: #aaa;
+a.nav-link {
+    color: black;
 }
 
-.position-center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.nav-link:hover {
+    background-color: #777;
 }
 
-.position-topleft {
-    position: absolute;
-    top: 0;
-    left: 0;
+#search:hover {
+    background-color: #f44336;
+    color: #fff;
 }
-.bg {
-    background-repeat: no-repeat;
+
+header {
+    height: 50vh;
+    overflow: hidden;
+    background-position: center;
     background-size: cover;
-    background: url(./images/architect.jpg);
-    height: 90vh !important;
+}
+
+header h1 {
+    letter-spacing: 10px;
+    font-size: 24px;
+}
+
+header#header1 {
+    background-image: url(images/parallax1.jpg);
+}
+
+header#header2 {
+    background-image: url(images/parallax2.jpg);
+}
+
+header#header3 {
+    background-image: url(images/parallax3.jpg);
+}
+
+.img-thumb {
+    height: 25%;
+    width: 25%;
+}
+
+.img-thumb:hover {
+    opacity: 0.5;
+}
+
+#map {
+    width: 33.33%;
+    height: fit-content;
 }
